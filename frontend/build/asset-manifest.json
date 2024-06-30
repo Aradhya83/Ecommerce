@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8bd03bd9.css",
+    "main.js": "/static/js/main.da3f5b8d.js",
+    "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
+    "static/media/hero.png": "/static/media/hero.207ce269db8ad90248ea.png",
+    "static/media/dw (2).jpg": "/static/media/dw (2).d7845606c48a34dc60f5.jpg",
+    "static/media/banner_kids.png": "/static/media/banner_kids.fff815a581793a7380fb.png",
+    "static/media/banner_women.png": "/static/media/banner_women.5a27fc4e4533e57e4676.png",
+    "static/media/banner_mens.png": "/static/media/banner_mens.eed7197157196f319b17.png",
+    "static/media/exclusive_image.png": "/static/media/exclusive_image.e8118f2149d9cb916980.png",
+    "static/media/product_4.png": "/static/media/product_4.ea0420ca9cec08d6df05.png",
+    "static/media/product_2.png": "/static/media/product_2.d4e74f367160ec10fb34.png",
+    "static/media/product_1.png": "/static/media/product_1.5a757396ee7ff5dd91c1.png",
+    "static/media/product_3.png": "/static/media/product_3.be48863df18b272b8f59.png",
+    "static/media/f2.png": "/static/media/f2.209743eb77f3524de15d.png",
+    "static/media/next-removebg-preview.png": "/static/media/next-removebg-preview.a8372d5418d8378ace55.png",
+    "static/media/f4.png": "/static/media/f4.ad9a7e8f300f1b06e476.png",
+    "static/media/f5.png": "/static/media/f5.7390d944821d42b5d0c4.png",
+    "static/media/f1.png": "/static/media/f1.2570c5d9b63b8b82eee2.png",
+    "static/media/f3.png": "/static/media/f3.c2387adbe683a4d5463e.png",
+    "static/media/f6.png": "/static/media/f6.411f54a7c986bd31bc8e.png",
+    "index.html": "/index.html",
+    "main.8bd03bd9.css.map": "/static/css/main.8bd03bd9.css.map",
+    "main.da3f5b8d.js.map": "/static/js/main.da3f5b8d.js.map",
+    "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8bd03bd9.css",
+    "static/js/main.da3f5b8d.js"
+  ]
+}
