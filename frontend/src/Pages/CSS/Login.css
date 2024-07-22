@@ -5,7 +5,10 @@
     padding-top: 100px;
     margin-bottom: 100px;
 }
-
+.error {
+    color: red;
+    font-size: 1rem;
+  }
 .login-container{
     width: 580px;
     height: 600px;
