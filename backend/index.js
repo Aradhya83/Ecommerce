@@ -8,13 +8,16 @@ import path from "path";//to get access to our backend directory in our express 
 import cors from "cors"; //to provide access to react project
 import { fileURLToPath } from 'url';
 app.use(express.json()); //whatever request we get, it would automatically be passed through json
-app.use(cors()) //reactjs project will connect to express app on port 4000
+app.use(cors()) 
+//reactjs project will connect to express app on port 4000
 //helps connect the frontend to the backend
 
 const __filename = fileURLToPath(import.meta.url); // Getting the current file path
 const __dirname = path.dirname(__filename); // Getting the directory name
 app.use(express.static(path.join(__dirname, '..', 'admin', 'dist')));
-
+app.get('/admin/*', (req, res) => {
+    res.sendFile(path.join(__dirname, '..', 'admin', 'dist', 'index.html'));
+  });
 
 //Database Connection With MONGODB
 mongoose.connect("mongodb+srv://aradhya:passwordecom11@cluster0.sx6s1ue.mongodb.net/ecommerce");
@@ -292,11 +295,11 @@ app.post("/removefromcart", fetchUser, async(req,res)=>{
 app.post('/getcart',fetchUser, async(req,res)=>{
     console.log("Getcart")
 let userData = await Users.findOne({_id:req.user.id}) //the id we'll get through middleware which will fetch user info from token
-res.json(userData.cartData);
+res.json(userData?.cartData);
 })
 
         
-app.get('/admin', (req, res) => {
+app.get('/admin/*', (req, res) => {
     res.sendFile(path.join(__dirname, '..', 'admin', 'dist', 'index.html'));
 });
 
